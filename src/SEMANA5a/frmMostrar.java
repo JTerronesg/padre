@@ -12,7 +12,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JOptionPane;
 
-
+//CONFIGURAR GIT - GITHUB - NETBEANS
 
 public class frmMostrar extends javax.swing.JFrame {
 

@@ -29,6 +29,7 @@ public class frmConectar extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        btnConectar.setBackground(new java.awt.Color(153, 204, 255));
         btnConectar.setText("ConectaR");
         btnConectar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -36,6 +37,8 @@ public class frmConectar extends javax.swing.JFrame {
             }
         });
 
+        btnDesconectar.setBackground(new java.awt.Color(153, 255, 153));
+        btnDesconectar.setForeground(new java.awt.Color(51, 0, 51));
         btnDesconectar.setText("Desconectar");
         btnDesconectar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
